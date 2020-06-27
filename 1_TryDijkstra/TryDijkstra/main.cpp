@@ -12,7 +12,7 @@ int main() {
 	clock_t start,end;   
 	start=clock();    //get the time of running at this line
 
-	ifstream finXY("..\\data\\eightPoints.csv");          //read graph example with eight nodes
+	ifstream finXY("..\\data\\eightNodesGraph.csv");          //read graph example with eight nodes
 	Graph_Djstr Me;
 	Me.readVertex(finXY);
 
